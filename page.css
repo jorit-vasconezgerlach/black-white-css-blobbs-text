@@ -33,15 +33,12 @@ body {
 }
 .blob:nth-child(2) {
     animation-duration: 2s;
-    border-radius: 35% 65% 50% 76%;
 }
 .blob:nth-child(3) {
     animation-duration: 4s;
-    border-radius: 47% 73% 98% 36%;
 }
 .blob:nth-child(4) {
     animation-duration: 6s;
-    border-radius: 84% 50% 40% 23%;
 }
 
 @keyframes rotate {
