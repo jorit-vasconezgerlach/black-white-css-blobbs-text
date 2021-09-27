@@ -12,7 +12,7 @@ body {
     background: #000000;
 }
 
-.blobs {
+.squares {
     width: 180px;
     height: 180px;
     position: relative;
@@ -21,7 +21,7 @@ body {
     justify-content: center;
 }
 
-.blob {
+.square {
     top: 0;
     left: 0;
     display: block;
@@ -31,13 +31,13 @@ body {
     border: 2px solid #FFFFFF;
     animation: rotate 2s linear infinite;
 }
-.blob:nth-child(2) {
+.square:nth-child(2) {
     animation-duration: 2s;
 }
-.blob:nth-child(3) {
+.square:nth-child(3) {
     animation-duration: 4s;
 }
-.blob:nth-child(4) {
+.square:nth-child(4) {
     animation-duration: 6s;
 }
 
